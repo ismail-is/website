@@ -39,7 +39,7 @@ import Certification from './Pages/Certification';
 class Components extends React.Component {
     render() {
         return (
-            <BrowserRouter basename="/website">
+            <BrowserRouter >
                 <ScrollToTop />
                 <div className="page-wraper">
                         <Routes>
